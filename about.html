@@ -33,34 +33,35 @@
     
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item "><a href="index.html" class="nav-link">Home</a></li>
             <!-- <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li> -->
+            
             <!--dropdown for about us-->
             <li class="nav-item dropdown active">
-              <a class="nav-link dropdown-toggle active" href="#" id="adrDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="practice-areas.html" id="adrDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 About Us
               </a>
               <div class="dropdown-menu" aria-labelledby="adrDropdown">
                 <a class="dropdown-item" href="about.html">Who We Are</a>
-                <a class="dropdown-item" href="about.html">What We Do</a>
+                <a class="dropdown-item" href="#" style="color: lightgray;">What We Do</a>
                 <a class="dropdown-item" href="attorneys.html">Team</a>
               </div>
             </li>
           <!--	<li class="nav-item"><a href="attorneys.html" class="nav-link">Practice Areas</a></li> -->
             
             <!-- Dropdown for Practice Areas -->
-			  <li class="nav-item dropdown ">
-          <a class="nav-link dropdown-toggle " href="practice-areas.html" id="adrDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Practice Areas
-          </a>
-          <div class="dropdown-menu" aria-labelledby="adrDropdown">
-            <a class="dropdown-item" href="practice-single.html">Mediation</a>
-            <a class="dropdown-item" href="practice-single.html">Arbitration</a>
-            <a class="dropdown-item" href="practice-single.html">Negotiation</a>
-            <a class="dropdown-item" href="practice-single.html">Conciliation</a>
-            <a class="dropdown-item" href="practice-single.html">Dispute Resolution</a>
-          </div>
-          </li>
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle " href="practice-areas.html" id="adrDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ADR SERVICES
+              </a>
+              <div class="dropdown-menu" aria-labelledby="adrDropdown">
+                <a class="dropdown-item" href="practice-single.html">Mediation</a>
+                <a class="dropdown-item" href="practice-single.html">Arbitration</a>
+                <a class="dropdown-item" href="practice-single.html">Negotiation</a>
+                <a class="dropdown-item" href="practice-single.html">Conciliation</a>
+                <a class="dropdown-item" href="practice-single.html">Dispute Resolution</a>
+              </div>
+              </li>
     
             <!--dropdown for Pages-->
             <li class="nav-item dropdown">
@@ -68,10 +69,10 @@
                 Pages
               </a>
               <div class="dropdown-menu" aria-labelledby="adrDropdown">
-                <a class="dropdown-item" href="#">Testimonial</a>
-                <a class="dropdown-item" href="#">Image Gallery</a>
-                <a class="dropdown-item" href="#">Video Gallery</a>
-                <a class="dropdown-item" href="#">FAQs</a>
+                <a class="dropdown-item" href="#" style="color: lightgrey;">Testimonial</a>
+                <a class="dropdown-item" href="#" style="color: lightgrey;">Image Gallery</a>
+                <a class="dropdown-item" href="#" style="color: lightgrey;">Video Gallery</a>
+                <a class="dropdown-item" href="#" style="color: lightgrey;">FAQs</a>
               </div>
             </li>
             <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
@@ -81,7 +82,11 @@
         </div>
       </div>
     </nav>
-    <!-- END nav -->
+    
+    <!-- Bootstrap JS (Ensure jQuery & Popper.js are included for dropdowns to work) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+      <!-- END nav -->
     
     <section class="hero-wrap hero-wrap-2" style="background-image: url('images/demo_image3.jpg'); margin-bottom: 80px;" data-stellar-background-ratio="0.5">
 
@@ -293,71 +298,71 @@
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
         <div class="row mb-5">
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="logo"><a href="#">Seeraj <span>Legal</span></a></h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-              </ul>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+          <h2 class="logo"><a href="#">Seeraj <span>Legal</span></a></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+          </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4 ml-md-5">
+          <h2 class="ftco-heading-2">ADR Services</h2>
+          <ul class="list-unstyled">
+            <li><a href="practice-single.html" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Arbitration</a></li>
+            <li><a href="practice-single.html" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Concilation</a></li>
+            <li><a href="practice-single.html" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Mediation</a></li>
+            <li><a href="practice-single.html" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Judicial Statement(Inclusive of Lok sabha)</a></li>
+            <li><a href="practice-single.html" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Negotiation</a></li>
+            
+    
+          </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Have a Question?</h2>
+            <div class="block-23 mb-3">
+            <ul>
+              <li><span class="icon icon-map-marker"></span><span class="text">ADDRESS</span></li>
+              <li><a href="#"><span class="icon icon-phone"></span><span class="text">NUMBER</span></a></li>
+              <li><a href="#"><span class="icon icon-envelope"></span><span class="text">MAIL</span></a></li>
+            </ul>
             </div>
           </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-5">
-              <h2 class="ftco-heading-2">ADR Services</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Arbitration</a></li>
-                <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Concilation</a></li>
-                <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Mediation</a></li>
-                <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Judicial Statement(Inclusive of Lok sabha)</a></li>
-                <li><a href="#" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Negotiation</a></li>
-                
-
-              </ul>
-            </div>
+        </div>
+        <div class="col-md">
+           <div class="ftco-footer-widget mb-4">
+          <h2 class="ftco-heading-2">Business Hours</h2>
+          <div class="opening-hours">
+            <h4>Opening Days:</h4>
+            <p class="pl-3">
+              <span>Monday – Friday : 9am to 20 pm</span>
+              <span>Saturday : 9am to 17 pm</span>
+            </p>
+            <h4>Vacations:</h4>
+            <p class="pl-3">
+              <span>All Sunday Days</span>
+              <span>All Official Holidays</span>
+            </p>
           </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Have a Question?</h2>
-            	<div class="block-23 mb-3">
-	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">ADDRESS</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">NUMBER</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">MAIL</span></a></li>
-	              </ul>
-	            </div>
-            </div>
           </div>
-          <div class="col-md">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Business Hours</h2>
-              <div class="opening-hours">
-              	<h4>Opening Days:</h4>
-              	<p class="pl-3">
-              		<span>Monday – Friday : 9am to 20 pm</span>
-              		<span>Saturday : 9am to 17 pm</span>
-              	</p>
-              	<h4>Vacations:</h4>
-              	<p class="pl-3">
-              		<span>All Sunday Days</span>
-              		<span>All Official Holidays</span>
-              	</p>
-              </div>
-            </div>
-          </div>
+        </div>
         </div>
         <div class="row">
-          <div class="col-md-12 text-center">
-
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="" target="_blank">Anshuman</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          </div>
+        <div class="col-md-12 text-center">
+    
+          <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="" target="_blank">Anshuman</a>
+    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        </div>
         </div>
       </div>
-    </footer>
+      </footer>
     
   
 
